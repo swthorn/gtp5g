@@ -1,6 +1,6 @@
 PWD := $(shell pwd) 
 KVERSION := $(shell uname -r)
-INCLUDE_DIR = /usr/src/linux-headers-$(KVERSION)/
+INCLUDE_DIR = /usr/lib/modules/$(KVERSION)/build/
 
 CONFIG_MODULE_SIG=n
 MODULE_NAME = gtp5g

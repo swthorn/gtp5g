@@ -5,8 +5,11 @@ ifneq (,$(findstring 1, $(RHEL8)))
 endif
 
 PWD := $(shell pwd) 
+<<<<<<< HEAD
 KVERSION := $(shell uname -r)
 INCLUDE_DIR = /usr/lib/modules/$(KVERSION)/build/
+=======
+>>>>>>> 33ca272e79b783c78565143b10bf8d1541f50a86
 
 CONFIG_MODULE_SIG=n
 MODULE_NAME = gtp5g
